@@ -20,7 +20,6 @@ def main():
             while loop_counter < loops_integer:
                 loop_counter = loop_counter + 1
                 user_string = input("Enter a number to add: ")
-                print("")
                 user_number = int(user_string)
                 if user_number < 0:
                     continue
@@ -30,7 +29,7 @@ def main():
         else:
             print("That is not a positive integer.")
     except ValueError:
-        print("That is not a valid input, try again.\n")
+        print("That is not a valid input, try again.")
 
     print("\nDone.")
 
