@@ -5,12 +5,11 @@
 
 
 def main():
-
+    # This is the continue loop function
     loop_counter = 0
     add_int = 0
 
-    # input
-
+    # input,process,output
     loops_string = input("How many positive integers do you want to add?: ")
     print("")
 
